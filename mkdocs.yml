@@ -1,0 +1,46 @@
+site_name: Тестовое задание - Фотокиоск. Отправка фотографии на электронную почту
+site_description: Требования к функции отправки фотографии на электронную почту
+site_url: https://ndorokhova.github.io/photobooth-test-task/
+
+theme:
+  name: material
+  language: ru
+  icon:
+    logo: material/camera
+  features:
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/image-zoom.js
+
+nav:
+  - Главная: index.md
+  - Оглавление: 00. Оглавление.md
+  - Контекст и границы: 01. Контекст и границы.md
+  - User story: 02. User story.md
+  - Use cases: 03. Use cases.md
+  - BPMN-диаграмма: 04. BPMN-диаграмма.md
+  - Бизнес-правила: 05. Бизнес-правила.md
+  - Требования к интерфейсам: 06. Требования к интерфейсам.md
+  - Требования к Backend: 07. Требования к Backend.md
